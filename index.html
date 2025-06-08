@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+        /* CORREÇÃO AQUI: Cada regra CSS deve ter o seu próprio bloco {} */
+        h1 {
+            color: #0056b3;
+        } /* <--- ESTÁ CORRECTO AGORA: FECHA O H1 AQUI */
+        h2 {
+            color: #0056b3;
+        } /* <--- ESTÁ CORRECTO AGORA: ESTE É UM NOVO BLOCO PARA H2 */
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff; /* Cor azul do botão */
+            color: white; /* Cor do texto no botão */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WordPad</h1>
+        <p>Clica no botão abaixo para fazer o download do instalador do WordPad.</p>
+        <a href="https://google.com/" download>Descarregar WordPad</a>
+        <h2>Instruções:</h2>
+        <p>Guarde o ficheiro onde preferir no seu computador. Recomendamos que guarde no caminho C:\Program Files\Windows NT\Accessories. Recomendamos que crie um atalho no ambiente de trabalho, para fácil abertura.</p>
+        <p>Será disponibilizado um instalador em breve, para fácil instalação.</p>
+    </div>
+</body>
+</html>
